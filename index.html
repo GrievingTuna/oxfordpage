@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<center><a href="https://www.oxfordschools.org"><img src="Images\OCS-logo.png" width=100 height=100></a></center>
+    <title>Oxford High School</title>
+		<center><p><h1 style="color:gold;">Oxford High School</h1></p></center>
+		<hr>
+  </head>
+  <body style="background-color:#000080;">
+		<img src="Images\Oxford High School Exterior.jpg">
+			<p><h2 style="color:gold;"><i>Why Come to Oxford</i></h2></p>
+			<p style="color:white;">
+				Here at Oxford, there are a lot of fun things to do. The class catalogue here has a lot of classes for different interests. There are electives for <b>math, science, languages, social studies, technology,  medicine, and many other subjects</b>. There are also <i>a lot</i> of different after-school activities that you can do here as well, with a lot of athletic programs, a robotics team, and after-school groups for some classes.
+			</p>
+			<hr>
+
+			<img src="Images\OHS Map.jfif">
+			<p style="color:white;">
+				<h3 style="color:gold;" style="text-align:right">Some classes or places I enjoy:</h3><br>
+				<ul style="color:white;">
+					<li>The cafeteria</li>
+					<li>The choir room</li>
+					<li>The robotics Room</li>
+					<li>Mrs. Monkevich's Room</li>
+				</ul>
+			</p>
+			<hr>
+
+			<p style="color:white;">
+				<h3 style="color:gold;" style="text-align:right">My Favourite Classes:</h3><br>
+				<ol style="color:white;">
+					<li>Web Design</li>
+					<li>Men's Choir</li>
+					<li>Physics</li>
+					<li>AP Statistics</li>
+				</ol>
+			</p>
+				
+				<form action="results.html" method="GET" enctype="multipart/form-data">
+					<div>
+						<label type="text" style="color:white;">Username</label>
+						<input name="username" placeholder="username" required>
+					</div>
+					<div>
+						<label type="text" style="color:white;" for="email">Email</label>
+						<input type="email" name="email" id="email" placeholder="email" required>
+					</div>
+					<div>
+						<label type="text" style="color:white;" for="date">Date</label>
+						<input type="date" name="date" id="date" placeholder="date" required>
+					</div>
+					<div>
+						<label type="name" style="color:white;">Age</label>
+						<input type="number" min="1" max="200" id="age" name="age" placeholder="age" required>
+					</div>
+					<div>
+						<label type="text" style="color:white;">Password</label>
+						<input type="password" name="password" placeholder="password" required>
+					</div> <br>
+					<div style="color:white;">
+						Favourite Fruit
+							<div>
+								<input type="checkbox" name ="fruit" id="banana">
+								<label for="fruit" style="color:white;">Banana</label>
+							</div>
+							<div>
+								<input type="checkbox" name ="fruit" id="apple">
+								<label for="fruit" style="color:white;">Apple</label>
+							</div>
+							<div>
+								<input type="checkbox" name ="fruit" id="orange">
+								<label for="fruit" style="color:white;">Orange</label>
+							</div>
+					</div> <br>
+					<div style="color:white;">
+						Grade
+							<div>
+								<input type="radio" name ="grade" id="freshman">
+								<label for="freshman" style="color:white;">Freshman</label>
+							</div>
+							<div>
+								<input type="radio" name ="grade" id="sophomore">
+								<label for="sophomore" style="color:white;">Sophomore</label>
+							</div>
+							<div>
+								<input type="radio" name ="grade" id="junior">
+								<label for="junior" style="color:white;">Junior</label>
+							</div>
+							<div>
+								<input type="radio" name ="grade" id="senior">
+								<label for="senior" style="color:white;">Senior</label>
+							</div>
+					</div> <br>
+					<div style="color:white;">
+						<label for="eyeColour">Eye Colour</label>
+						<select name="eyeColour" id="eyeColour">
+							<option label="Green" value="green"></option>
+							<option label="Blue" value="Blue"></option>	
+							<option label="Brown" value="brown"></option>
+							<option label="Hazel" value="hazel"></option>
+						</select>
+					</div> <br>
+					<input type="hidden" name="hidden" value="hi">
+					<div>
+						<label for="bio" style="color: white;">Bio</label>
+						<textarea id="bio" name="bio"></textarea>
+					</div> <br>
+					<div>
+						<label for="file" style="color: white;">File</label>
+						<input type="file" id="file" name="file">
+					</div> <br>
+					<button type="reset">Reset</button>
+					<button type="submit">Submit</button>
+				</form> <br>
+
+			<center><img src="Images\IB Logo.png" width=100 height=100></center>
+  </body>
+</html>
